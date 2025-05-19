@@ -4,7 +4,7 @@ This repository hosts the common documentation source for the
 https://docs.couchbase.com/home/analytics-sdk.html[Couchbase Analytics SDK Documentation].
 
 
-This branch contains common documents and document fragments for the 1.0 API release of each columnar SDK.
+This branch contains common documents and document fragments for the 1.0 API release of each Analytics SDK.
 It follows the https://docs.couchbase.com/analytics-java-sdk/1.0/project-docs/compatibility.html#api-version[Analytics SDK 1.0 API].
 
 
@@ -17,9 +17,9 @@ A guide to using asciidoc, building Antora locally, and working with our repos c
 At a minimum, to build the docs locally, you will need:
 
 * This repo,
-https://github.com/couchbase/docs-analytics-sdk-common[docs-columnar-sdk-common],
-* One of the actual columnar SDK repos, such as
-https://github.com/couchbase/docs-analytics-sdk-common[docs-columnar-sdk-common],
+https://github.com/couchbase/docs-analytics-sdk-common[docs-analytics-sdk-common],
+* One of the actual Analytics SDK repos, such as
+https://github.com/couchbase/docs-analytics-sdk-common[docs-analytics-sdk-common],
 * And the https://github.com/couchbase/docs-server[Server Docs repo]
 
 in your Antora playbook.
@@ -41,7 +41,7 @@ The philosophy behind the Information Architecture can be found in the https://d
 
 Antora modules used for each SDK's repo are as follows:
 
-* concept-docs -- discussion docs explaining SDK-relevant aspects of Couchbase & Columnar; in the published docs these are now interleaved with the howtos, rather than in a separate section.
+* concept-docs -- discussion docs explaining SDK-relevant aspects of Couchbase & Analytics; in the published docs these are now interleaved with the howtos, rather than in a separate section.
 This module also contains the mini landing pages which introduce each section.
 * devguide/examples -- the home of all code examples.
 * hello-world -- overview (landing page) and the introductory tutorials.
@@ -74,7 +74,7 @@ The *pages* module (not to be confused with Antora's pages folder), contains com
 These partials are the common pages shared by all the Columnar SDKs.
 
 The *shared* module contains page fragments, also in the form of partials.
-These partials hold information common to all the Columnar SDKs, but which do not constitute complete pages.
+These partials hold information common to all the Analytics SDKs, but which do not constitute complete pages.
 
 === Pages Module
 
@@ -92,7 +92,7 @@ modules/
 
 Although the AsciiDoc files are located in the [.path]_partials_ folder, they are, in fact, complete pages.
 The only reason they're located in the [.path]_partials_ folder is so that they don't get turned into pages directly.
-Instead, they need to be included into pages in the language-specific Columnar SDKs.
+Instead, they need to be included into pages in the language-specific Analytics SDKs.
 
 
 ////
