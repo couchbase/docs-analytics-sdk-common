@@ -1,11 +1,11 @@
-= Couchbase Columnar SDK Documentation
+= Couchbase Analytics SDK Documentation
 
 This repository hosts the common documentation source for the
-https://docs.couchbase.com/home/columnar-sdk.html[Couchbase Columnar SDK Documentation].
+https://docs.couchbase.com/home/analytics-sdk.html[Couchbase Analytics SDK Documentation].
 
 
 This branch contains common documents and document fragments for the 1.0 API release of each columnar SDK.
-It follows the https://docs.couchbase.com/columnar-java-sdk/1.0/project-docs/compatibility.html#api-version[columnar SDK 1.0 API].
+It follows the https://docs.couchbase.com/analytics-java-sdk/1.0/project-docs/compatibility.html#api-version[Analytics SDK 1.0 API].
 
 
 == Contributing
@@ -17,9 +17,9 @@ A guide to using asciidoc, building Antora locally, and working with our repos c
 At a minimum, to build the docs locally, you will need:
 
 * This repo,
-https://github.com/couchbase/docs-columnar-sdk-common[docs-columnar-sdk-common],
+https://github.com/couchbase/docs-analytics-sdk-common[docs-columnar-sdk-common],
 * One of the actual columnar SDK repos, such as
-https://github.com/couchbase/docs-columnar-sdk-common[docs-columnar-sdk-common],
+https://github.com/couchbase/docs-analytics-sdk-common[docs-columnar-sdk-common],
 * And the https://github.com/couchbase/docs-server[Server Docs repo]
 
 in your Antora playbook.
@@ -29,7 +29,7 @@ You can do this by clicking on the *Leave Feedback* button on any of the docs pa
 usually found near the top right of the page.
 
 Alternatively, raise a
-https://github.com/couchbase/docs-columnar-sdk-common/issues[GitHub issue] in this repository.
+https://github.com/couchbase/docs-analytics-sdk-common/issues[GitHub issue] in this repository.
 
 ////
 == Notes for Docs Maintainers
@@ -55,7 +55,7 @@ Docs that you need to use the software (compatibility tables, release notes, etc
 Within each module, docs content is mostly found in the `pages` directories, as `.adoc` files.
 Occasionally, a partial fragment in a `partials` directory contains content reused over more than one page.
 
-Most re-use is from single-sourced content in from https://github.com/couchbase/docs-columnar-sdk-common[this sdk-common repo].
+Most re-use is from single-sourced content in from https://github.com/couchbase/docs-analytics-sdk-common[this sdk-common repo].
 Here, the content is divided between partials and full pages, in the manner described below.
 
 
