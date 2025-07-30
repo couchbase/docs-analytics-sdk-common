@@ -5,10 +5,10 @@
 
 [abstract]
 
-Columnar SDKs are often used with unofficial and third party tools and applications to integrate into broader language and platform ecosystems, and across data lakes in heterogeneous environments.
+Analytics SDKs are often used with unofficial and third party tools and applications to integrate into broader language and platform ecosystems, and across data lakes in heterogeneous environments.
 
 // tag::intro[]
-Columnar SDKs are often used with unofficial and third party tools and applications to integrate into broader language and platform ecosystems, and across data lakes in heterogeneous environments.
+Analytics SDKs are often used with unofficial and third party tools and applications to integrate into broader language and platform ecosystems, and across data lakes in heterogeneous environments.
 These are some of the applications that you need to be aware of.
 // end::intro[]
 
