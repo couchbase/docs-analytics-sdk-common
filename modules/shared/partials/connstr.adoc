@@ -20,5 +20,17 @@ The default port for insecure connections is port `80`.
 
 If you're connecting to a cluster directly, without a load balancer, you can specify the port in the connection string: `https://analytics.example.com:18095`.
 For a standalone Analytics cluster, the port is usually `18095` (or `8095` for an insecure connection).
-Make sure to check with your administr
+Make sure to check with your administrator.
+
+
+=== Client Settings Parameters
+
+Connection strings can also include client settings, which will override any that are also set in the code.
+
+.Connection string with two parameters
+----
+https://analytics.example.com?timeout.connect_timeout=30s&timeout.query_timeout=2m
+----
+
+The full list of recognized parameters is documented in the xref:ref:client-settings.adoc[client settings reference].
 // end::more-connstr[]
