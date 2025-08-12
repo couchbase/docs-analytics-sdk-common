@@ -3,7 +3,7 @@
 :description: Meta documentation -- what you might need to know to get the best from these docs, from their intent to their Information Architecture.
 
 
-// This page can be seen built at https://docs.couchbase.com/java-sdk/current/project-docs/metadoc-about-these-sdk-docs.html
+// This page can be seen built at https://docs.couchbase.com/java-analytics-sdk/current/project-docs/metadoc-about-these-sdk-docs.html
 // replacing java with whichever SDK is pulling in the complete page from the sdk-common repo
 // (the page features in each SDK's docs).
 
@@ -23,8 +23,8 @@ so this page is a guide to the SDK docs, to help you to get the most from them.
 == Assumptions & Presumptions
 
 Couchbase is a complex and powerful product, with many components.
-The Columnar SDKs simply interact with Capella Columnar, not Couchbase Server and its various services --
-but some of that complexity spills across into the Columnar SDKs and their documentation.
+The Analytics SDKs simply interact with Enterprise Analytics, not Couchbase Server and its various services --
+but some of that complexity spills across into the Analytics SDKs and their documentation.
 
 Some concepts, such as Role-Based Access Control, do need to be understood in greater depth -- 
 but this is documented xref:{version-server}@server:learn:security/roles.adoc[in the appropriate place in the Server docs], and the xref:cloud:projects:project-roles.adoc[Capella docs], 
@@ -45,7 +45,7 @@ Hence each section carries a broad introduction, highlighting points to consider
 
 === Limits of the SDK Docs
 
-Large as this docset is, it can only cover a subset of the complete Columnar SDK API.
+Large as this docset is, it can only cover a subset of the complete Analytics SDK API.
 For a comprehensive answer to anything not completely covered in these docs, your first port of call should always be the {sdk-api-link}[API reference].
 For many languages, you will also access this from your chosen IDE.
 
@@ -81,7 +81,7 @@ and xref:concept-docs:nonjson.adoc[working with non-JSON data].
 
 * xref:concept-docs:querying-your-data.adoc[]
 
-The heart of the Columnar Service -- real-time OLAP querying, with Couchbase's familiar {sqlpp} query language.
+The heart of the Analytics Cluster -- real-time OLAP querying, with Couchbase's familiar {sqlpp} query language.
 
 ////
 For developers with an RDBMS, Couchbase's SQL implementation, {sqlpp}, makes querying familiar.
@@ -139,7 +139,7 @@ xref:project-docs:compatibility.adoc[compatibility guides],
 // xref:project-docs:migrating-sdk-code-to-3.n.adoc[migration], 
 // xref:project-docs:third-party-integrations.adoc[third party integrations], 
 xref:project-docs:sdk-licenses.adoc[licensing],
- and xref:project-docs:sdk-release-notes.adoc[release notes].
+and xref:project-docs:sdk-release-notes.adoc[release notes].
 
 
 == Reference Docs
@@ -148,7 +148,9 @@ xref:project-docs:sdk-licenses.adoc[licensing],
 
 The key reference doc is the API guide, which should be an accurate and complete source of truth for programming with the {name_platform} SDK's API.
 Any error here should be filed directly against the individual SDKs bug tracker -- via the GitHub issues on {sdk-gh-link} --
- although a ticket against the docs https://issues.couchbase.com/projects/DOC/issues[here] will always be converted to the correct project.
+although a ticket against the docs https://issues.couchbase.com/projects/DOC/issues[here] will always be converted to the correct project.
+
+// TODO - alternative to JIRA?
 
 The first link in the navigation for the Reference Section is to the API Guide for the _latest version_ of the SDK.
 Links to previous versions can be found with the xref:project-docs:sdk-release-notes.adoc[Release Notes].
