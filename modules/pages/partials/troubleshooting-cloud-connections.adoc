@@ -1,20 +1,24 @@
 = Troubleshooting Cloud Connections
 :page-toclevels: 2
-:description: Diagnose DNS-SRV problems. Troubleshoot other network connection trouble with SDK doctor.
+:description: Troubleshoot network connection problems with SDK doctor.
 
 [abstract]
 {description}
 
 Connecting to Cloud -- in particular when developing applications outside the network where the Cluster is hosted -- can expose unexpected network problems. 
-We'll show you how to troubleshoot _Host not Found_ problems. 
-SDK doctor is a powerful but simple tool to help diagnose other connection problems.
+You may be hosting your Enterprise Analytics cluster in a private cloud or remote data center, with development on a local laptop;
+this can lead to timeouts not seen in a production environment (where the database and app are hosted in the same LAN-like environment),
+and that can confuse the debugging of problems.
+SDK doctor is a powerful but simple tool to help diagnose connection problems.
 
+////
 == Troubleshooting Problems
 
 https://docs.couchbase.com/cloud/index.html[Couchbase Capella] is secure by default, and that means that it always uses TLS connections. 
 Before carrying out other troubleshooting, please check that your application code is configured for TLS/SSL, using the default method of connecting (not http/https), and not specifying any port numbers.
+////
 
-
+////
 === Troubleshooting Host not Found
 
 In order for your application to connect to your cloud, Capella creates a special kind of DNS record, called a Service record, or DNS-SRV record. 
@@ -101,9 +105,9 @@ _couchbases._tcp.cb.490e597e-73fd-4b87-a08a-1da9c826970e.dp.cloud.couchbase.com 
 ----
 
 As a workaround, you can switch to a DNS provider which can support modern DNS SRV records.
+////
 
-
-=== Validating Connectivity with SDK doctor
+== Validating Connectivity with SDK doctor
 
 If you appear to be having connectivity issues, it'd be good to diagnostically check for lower level details with https://github.com/couchbaselabs/sdk-doctor[SDK doctor].  
 From the environment where it looks like your program cannot connect, run one of the of the https://github.com/couchbaselabs/sdk-doctor/releases[pre-built binaries] for your platform. 
@@ -512,7 +516,7 @@ This output is a possible indication that the DNS server in use does not support
 
 
 
-
+////
 == Additional Steps
 
 * Check your IP is allowlisted in the https://docs.couchbase.com/cloud/index.html[Capella] UI as an Allowed IP (make sure to hit Save after adding it).
@@ -520,3 +524,4 @@ This output is a possible indication that the DNS server in use does not support
 * That you are using a supported version of the {name-sdk} -- preferably the latest.
 // * That you have enabled TLS via `enableTls(true)`.
 * That the user you are connecting as has been created in Capella and has correct permissions for the collection that you are connecting to.
+////
