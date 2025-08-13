@@ -9,7 +9,7 @@
 
 // tag::intro[]
 xref:analytics:intro:intro.adoc[Enterprise Analytics] is a real-time analytical database (RT-OLAP) for real time apps and operational intelligence. 
-Although maintaining some syntactic similarities with xref:home:sdk.adoc[the operational SDKs], the {name-sdk} is developed from the ground-up for column-based analytical use cases,
+Although maintaining some syntactic similarities with xref:home::sdk.adoc[the operational SDKs], the {name-sdk} is developed from the ground-up for column-based analytical use cases,
 and supports streaming APIs to handle large datasets.
 // end::intro[]
 
