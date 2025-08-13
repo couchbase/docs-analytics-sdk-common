@@ -1,7 +1,7 @@
 = Glossary
 :page-aliases:
 :page-topic-type: reference
-  :description: Unpicking the tangled alphabet soup of the Enterprise Analytics Platform, from an SDK perspective.
+:description: Unpicking the tangled alphabet soup of the Enterprise Analytics Platform, from an SDK perspective.
 
 
 [abstract]
