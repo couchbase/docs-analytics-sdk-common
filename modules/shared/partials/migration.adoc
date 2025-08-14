@@ -10,3 +10,5 @@ If you are migrating a project from CBAS -- our Analytics service on Capella Ope
 
 In particular, refer to the xref:enterprise-analytics:migration:migration-process.adoc#sdk-migration[SDK section] of the Enterprise Analytics migration pages.
 // end::migration[]
+
+// https://github.com/couchbaselabs/couchbase-analytics-jvm-clients/blob/main/MIGRATING.md
