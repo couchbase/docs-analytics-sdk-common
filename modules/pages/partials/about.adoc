@@ -147,10 +147,10 @@ and xref:project-docs:sdk-release-notes.adoc[release notes].
 * xref:ref:index.adoc[]
 
 The key reference doc is the API guide, which should be an accurate and complete source of truth for programming with the {name_platform} SDK's API.
-Any error here should be filed directly against the individual SDKs bug tracker -- via the GitHub issues on {sdk-gh-link} --
+Any error here should be filed directly against the individual SDKs bug tracker -- via the GitHub issues on {sdk-gh-link}[] --
 although a ticket against the docs https://issues.couchbase.com/projects/DOC/issues[here] will always be converted to the correct project.
 
-// TODO - alternative to JIRA?
+TIP: You can also file JIRA tickets against these docs by clicking the *Leave Additional Feedback?* link on most pages in the docs.
 
 The first link in the navigation for the Reference Section is to the API Guide for the _latest version_ of the SDK.
 Links to previous versions can be found with the xref:project-docs:sdk-release-notes.adoc[Release Notes].
