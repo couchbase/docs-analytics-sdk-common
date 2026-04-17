@@ -30,7 +30,8 @@ We recommend running the latest LTS version (i.e. at the time of writing JDK 21)
 
 The following JDK releases are supported:
 
-* https://adoptium.net/[OpenJDK 21 with HotSpot JVM] (recommended)
+* https://adoptium.net/[OpenJDK 25 with HotSpot JVM] (recommended)
+* https://adoptium.net/[OpenJDK 21 with HotSpot JVM]
 * https://adoptium.net/[OpenJDK 17 with HotSpot JVM]
 * https://www.oracle.com/java/technologies/downloads/#jdk17[Oracle JDK 17]
 
