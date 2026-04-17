@@ -4,8 +4,8 @@ This repository hosts the common documentation source for the
 https://docs.couchbase.com/home/analytics-sdk.html[Couchbase Analytics SDK Documentation].
 
 
-This branch contains common documents and document fragments for the 1.0 API release of each Analytics SDK.
-It follows the https://docs.couchbase.com/analytics-java-sdk/1.0/project-docs/compatibility.html#api-version[Analytics SDK 1.0 API].
+This branch contains common documents and document fragments for the 1.1 API release of each Analytics SDK.
+It follows the https://docs.couchbase.com/analytics-java-sdk/1.0/project-docs/compatibility.html#api-version[Analytics SDK 1.1 API].
 
 
 == Contributing
@@ -323,5 +323,5 @@ This is in the process of being changed -- documentation will appear here once t
 
 == Docs License
 
-©2025 Couchbase, Inc.
+©2026 Couchbase, Inc.
 This work is licensed under https://creativecommons.org/licenses/by-nc-sa/4.0/[CC BY-NC-SA 4.0].
