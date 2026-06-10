@@ -10,7 +10,7 @@ Plus notes on Cloud, networks, and AWS Lambda.
 {description}
 
 
-The 1.0 SDK requires Java 8 or later to be installed.
+The 1.1 SDK requires Java 8 or later to be installed.
 We recommend using the most recent long-term support (LTS) version of OpenJDK.
 
 TIP: Remember to keep your Java installation up to date with the latest patches.
@@ -70,7 +70,7 @@ The {name-sdk} has been tested on a representative subset of the platforms liste
 === Mac OS X
 
 The current and previous two releases of OS X.
-At time of writing (April 2026): 26 (Tahoe), 15 (Sequoia), and 14 (Sonoma).
+At time of writing (June 2026): 26 (Tahoe), 15 (Sequoia), and 14 (Sonoma).
 ****
 
 The JVM Analytics SDKs should also be expected to run on other commonly-available GNU/Linux distributions which support an appropriate JDK, but not all combinations can be tested.
@@ -154,20 +154,28 @@ The downside of these workarounds is potentially reduced performance, which can 
 
 // tag::api-version[]
 .Analytics SDK API Versions
-[cols="20,20"]
+[cols="20,20,20"]
 |===
-|  |  API 1.0
+|  |  API 1.0  |  API 1.1
+
+| xref:dotnet-analytics-sdk:hello-world:overview.adoc[.NET Analytics SDK Docs] |
+| 1.0
+| 1.1
 
 | xref:go-analytics-sdk:hello-world:overview.adoc[Go Analytics SDK Docs] |
 | 1.0
+| 1.1
 
 | xref:java-analytics-sdk:hello-world:overview.adoc[Java Analytics SDK Docs] |
 | 1.0
+| 1.1
 
 | xref:nodejs-analytics-sdk:hello-world:overview.adoc[Node.js Analytics SDK Docs] |  
 | 1.0
+| 1.1
 
 | xref:python-analytics-sdk:hello-world:overview.adoc[Python Analytcis SDK Docs] 
 | 1.0
-
+| 1.1
+|===
 // end::api-version[]
