@@ -105,7 +105,7 @@ The {name-sdk} has been tested on a representative subset of the platforms liste
 === Mac OS X
 
 The current and previous two releases of OS X.
-At time of writing (April 2026): 26 (Tahoe), 15 (Sequoia), and 14 (Sonoma).
+At time of writing (June 2026): 26 (Tahoe), 15 (Sequoia), and 14 (Sonoma).
 ****
 // end::os-compat[]
 
@@ -158,23 +158,23 @@ The downside of these workarounds is potentially reduced performance, which can 
 |===
 |  |  API 1.0  |  API 1.1
 
-| xref:dotnet-analytics-sdk:hello-world:overview.adoc[.NET Analytics SDK Docs] |
+a| xref:dotnet-analytics-sdk:hello-world:overview.adoc[.NET Analytics SDK Docs] 
 | 1.0
 | 1.1
 
-| xref:go-analytics-sdk:hello-world:overview.adoc[Go Analytics SDK Docs] |
+a| xref:go-analytics-sdk:hello-world:overview.adoc[Go Analytics SDK Docs] 
 | 1.0
 | 1.1
 
-| xref:java-analytics-sdk:hello-world:overview.adoc[Java Analytics SDK Docs] |
+a| xref:java-analytics-sdk:hello-world:overview.adoc[Java Analytics SDK Docs] 
 | 1.0
 | 1.1
 
-| xref:nodejs-analytics-sdk:hello-world:overview.adoc[Node.js Analytics SDK Docs] |  
+a| xref:nodejs-analytics-sdk:hello-world:overview.adoc[Node.js Analytics SDK Docs] 
 | 1.0
 | 1.1
 
-| xref:python-analytics-sdk:hello-world:overview.adoc[Python Analytcis SDK Docs] 
+a| xref:python-analytics-sdk:hello-world:overview.adoc[Python Analytcis SDK Docs] 
 | 1.0
 | 1.1
 |===
